@@ -3,9 +3,12 @@ TextInputformat in hadoop has a default record delimter as \n , which does not h
 Example:
 [{"m":"","lc":"","tu":""},{"m":"","lc":"","tu":""}]
 
+
+
 Default TextInputFormat cannot let you define a hive table on this data because it will show the entire line as one record. Expected input to use this data as a valid table should be as follows :
 
 {"m":"","lc":"","tu":""}
+
 {"m":"","lc":"","tu":""}
 
 This CustomInputFormat handles these oneliner input sets and breaks the records where JSON record finishes.
