@@ -1,3 +1,7 @@
+Custom Text InputFormat for Hadoop
+=====================================
+
+
 TextInputformat in hadoop has a default record delimter as \n , which does not help when you receive JSON records all wrapped up in record in one line.
 
 Example:
