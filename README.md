@@ -15,7 +15,8 @@ This CustomInputFormat handles these oneliner input sets and breaks the records 
 
 Usage:
 
-git clone https://github.com/ashishkdubey/hadoop.git
+git clone https://github.com/ashishkdubey/CustomJsonInputFormat.git
+
 mvn package
 
 
