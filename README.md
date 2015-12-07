@@ -21,6 +21,8 @@ Usage:
 
 git clone https://github.com/ashishkdubey/CustomJsonInputFormat.git
 
+cd ./CustomJsonInputFormat/CustomJsonInputFormat
+
 mvn package
 
 
